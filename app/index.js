@@ -11,7 +11,7 @@ const init = async () => {
     await initModelTable()
     await initPromptTable()
   }
-  
+
   console.log('Server running on %s', server.info.uri)
 }
 
