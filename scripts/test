@@ -56,7 +56,7 @@ compose() {
 
  # Guarantee clean environment
   compose down -v
-
+  
   # Ensure container images are up to date
   compose build
 
