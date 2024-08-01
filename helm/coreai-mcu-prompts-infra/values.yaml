@@ -1,10 +1,8 @@
 storageAccounts:
   - name: 'coreaimcu'
     owner: 'no'
+    roleAssignments:
+      - roleName: 'DataWriter'
     tables: 
       - name: 'prompts'
-        roleAssignments:
-          - roleName: 'TableDataContributor'
       - name: 'models'
-        roleAssignments:
-          - roleName: 'TableDataContributor'
